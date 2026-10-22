@@ -1,13 +1,14 @@
-name = "duckduckgo-ai"
-compatibility_date = "2024-06-10"
+#:schema node_modules/wrangler/config-schema.json
+name = "duckduckgo-ai-amr"
+main = "src/index.ts"
+compatibility_date = "2026-10-22"
 compatibility_flags = ["nodejs_compat"]
 
-[dev]
-ip = "127.0.0.1"
-
+# متغيرات البيئة (اختياري)
 [vars]
-API_KEY = ""
+API_KEY = "sk-your-secret-password-here"
 
+# ربط مساحة تخزين KV (ضروري للمحادثات المستمرة)
 [[kv_namespaces]]
 binding = "CONVERSATIONS"
 id = "YOUR_KV_NAMESPACE_ID"

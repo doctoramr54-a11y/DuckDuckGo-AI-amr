@@ -11,4 +11,4 @@ API_KEY = "sk-your-secret-password-here"
 # ربط مساحة تخزين KV (ضروري للمحادثات المستمرة)
 [[kv_namespaces]]
 binding = "CONVERSATIONS"
-id = "YOUR_KV_NAMESPACE_ID"
+id = "46f0185d8a90405aa39b34b966602250"
